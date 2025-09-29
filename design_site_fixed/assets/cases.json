@@ -1,0 +1,29 @@
+{
+  "company": "示例设计工作室",
+  "phone": "+86 010-0000-0000",
+  "wechat": "design_wechat",
+  "hero": "assets/hero.jpg",
+  "cases": [
+    {
+      "id": 1,
+      "title": "餐饮空间—燕郊小馆",
+      "short": "现代自然风，温暖色调",
+      "long": "项目简介：餐饮空间设计，强调自然材质与流线方案，深化施工图执行。",
+      "image": "assets/case1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "酒店大堂改造",
+      "short": "奢雅与现代结合",
+      "long": "项目简介：酒店公共区提升，采用石材与灯光设计，提升体量感。",
+      "image": "assets/case2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "办公空间—创意工坊",
+      "short": "灵活开放的办公布局",
+      "long": "项目简介：开放办公+会议区的结合，提升协作与品牌感知。",
+      "image": "assets/case3.jpg"
+    }
+  ]
+}

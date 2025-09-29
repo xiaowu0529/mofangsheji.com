@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>示例设计工作室 - 设计公司</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="logo" id="logoText">示例设计工作室</div>
+    <nav class="nav">
+      <a href="#home">首页</a>
+      <a href="#cases">案例分享</a>
+      <a href="#about">关于我们</a>
+      <a href="#contact">联系我们</a>
+    </nav>
+    <button class="menu-toggle" aria-label="menu" id="menuToggle">☰</button>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-left">
+      <h1 id="heroTitle">专业室内设计 · 创造温馨与美学</h1>
+      <p id="heroSubtitle">我们为商业与居住空间提供一站式设计与深化施工图服务。</p>
+      <div class="hero-ctas">
+        <a class="btn" href="#cases">查看案例</a>
+        <a class="btn alt" href="#contact">联系我们</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img id="heroImage" src="assets/hero.jpg" alt="hero" />
+    
+    <div style="margin-top:16px;">
+      <button id="btn-call" class="btn">电话咨询</button>
+      <button id="btn-wechat" class="btn alt">微信添加</button>
+      <button id="btn-chat" class="btn">在线对话</button>
+    </div>
+    
+  </div>
+</section>
+
+<section id="cases" class="section">
+  <div class="wrap">
+    <h2 class="section-title">案例分享</h2>
+    <div id="case-grid" class="grid">
+    <div style="margin-top:16px;">
+      <button id="btn-call" class="btn">电话咨询</button>
+      <button id="btn-wechat" class="btn alt">微信添加</button>
+      <button id="btn-chat" class="btn">在线对话</button>
+    </div>
+    
+  </div>
+</section>
+
+<section id="about" class="section dark">
+  <div class="wrap">
+    <h2 class="section-title">关于我们</h2>
+    <p id="aboutText">基于现代简洁风格，提供餐饮、酒店、办公空间的环境设计与施工图深化服务。</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>联系我们</h2>
+      <p>电话：<a id="phoneLink" href="tel:+860000000000">+86 000-0000-000</a></p>
+      <p>微信：<span id="wechatId">design_wechat</span></p>
+      <div class="qr"><img id="wechatQr" src="assets/qr.png" alt="wechat qr" /></div>
+    </div>
+    <div>
+      <h3>在线留言</h3>
+      <form id="contactForm">
+        <input name="name" placeholder="姓名" required />
+        <input name="phone" placeholder="手机号" required />
+        <textarea name="msg" placeholder="留言内容" rows="4" required></textarea>
+        <button type="submit" class="btn">发送</button>
+      </form>
+      <div id="formResult" class="form-result"></div>
+    
+    <div style="margin-top:16px;">
+      <button id="btn-call" class="btn">电话咨询</button>
+      <button id="btn-wechat" class="btn alt">微信添加</button>
+      <button id="btn-chat" class="btn">在线对话</button>
+    </div>
+    
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <small>© <span id="footerCompany">示例设计工作室</span> 版权所有</small>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
